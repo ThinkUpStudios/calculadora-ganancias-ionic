@@ -1,0 +1,48 @@
+/* Empty. Add your own CSS if you like */
+
+.resultados-right{
+  float: right;
+  margin-left: 3em;
+}
+
+.big{
+  font-size: 1.5em;
+}
+
+.center{
+	align-items: center;
+}
+
+.item.item-text.par{
+  background-color: rgba(0,0,0,0.06);
+}
+
+div.toggle-chico{
+	padding-left:10px;
+	padding-right:3em;
+}
+
+div.toggle-chico label{
+	padding-right:30px;
+}
+.platform-android  .popover{
+  top:4em !important;
+  max-height: 8em;
+}
+.platform-ios  .popover{
+  max-height: 9em;
+}
+
+input.input-highlight{
+  background-color: rgba(100,100,250,0.02);
+  border-bottom: solid rgba(100,100,250,0.15) 2px;
+  border-radius: 7px;
+
+}
+
+.item{
+  border:none;
+}
+
+
+
