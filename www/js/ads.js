@@ -24,7 +24,8 @@
         AdMob.createBanner({
             adId : admobData.banner,
             position : AdMob.AD_POSITION.BOTTOM_CENTER,
-            autoShow : true
+            autoShow : true,
+            overlap:true
         });
     }
   }
