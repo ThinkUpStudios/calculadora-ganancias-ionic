@@ -52,7 +52,16 @@ angular.module('starter', ['ionic','ionic-material','starter.controllers', 'star
 
         }
       }
-    });
+    })
+      .state('info', {
+        url: '/info',
+        views: {
+          '': {
+            templateUrl: 'templates/info.html',
+
+          }
+        }
+      });
 
 
   // if none of the above states are matched, use this as the fallback

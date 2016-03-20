@@ -29,8 +29,13 @@ angular.module('starter.controllers', [])
     }).then(function(popover) {
       $scope.popover = popover;
     });
+    $scope.goToHelp = function(){
+      $scope.popover.hide();
+      $location.path("info");
 
+    };
     $scope.irAStore = function(){
+
       window.open('market://details?id=com.ionicframework.calculadoraganancias360412', '_system');
     };
     $scope.shareAnywhere = function() {

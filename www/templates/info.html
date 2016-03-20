@@ -1,0 +1,45 @@
+<ion-view title="Calculadora de ganancias" ng-controller="CalculatorCtrl">
+
+  <ion-header-bar align-title="left" class="bar-header disable-user-behavior bar-positive">
+    <div class="title title-center header-item">Información</div>
+
+    <div class="buttons buttons-right header-item">
+      <span class="right-buttons">
+                <button class="button button-icon button-clear ion-android-more-vertical"
+                        ng-click="popover.show( event)">
+                </button>
+      </span>
+    </div>
+  </ion-header-bar>
+  <ion-content scroll="true" style="background-color: rgba(0,0,0,0.02)">
+    <div style="color:#808080; padding:5%" >
+
+        <span>
+            <p>
+              <b>Calculadora de ganancias</b> es una aplicación que te permite sacar un cálculo aproximado de los descuentos
+              que vas a tener por el impuesto a las ganancias mensualmente y cuánto será tu sueldo neto (en mano).
+            </p>
+            <p>
+              El cálculo está hecho considerando 13 sueldos, 12 meses y 2 medios aguinaldos, con el importe que coloques
+              en "sueldo bruto".
+            </p>
+            <p>
+              En el caso de los valores que coloques en los campos de "más deducciones", se considera el valor durante
+              12 meses.
+            </p>
+            <br>
+              <em>Ej:</em> Si colocás en "Cred. Hipotecarios" un valor de $1000, los cálculos se realizan suponiendo que durante
+              los 12 meses del año pagas intereses por crédito hipotecario con el valor de $1000, por lo tanto tendrás
+              un pago anual de $12000.
+              <br>
+                Recordá que, dependiendo la categoría, existen topes anuales.
+              </br>
+            </p>
+            <p>
+              Desde el equipo de Thinkup Studios esperamos que te sea útil y la recomiendes a tus amigos.
+            </p>
+          </a>
+        </span>
+    </div>
+  </ion-content>
+</ion-view>
